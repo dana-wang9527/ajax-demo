@@ -1,5 +1,5 @@
 let n = 1;
-getPackedSettings.onclick = () => {
+getPage.onclick = () => {
   const request = new XMLHttpRequest();
   request.open("GET", `/page${n + 1}`);
   request.onreadystatechange = () => {
